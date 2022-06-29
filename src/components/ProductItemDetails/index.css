@@ -1,0 +1,124 @@
+/* Write your CSS here */
+.app-product-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  align-items: flex-start;
+  width: 100%;
+}
+.product-item-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #616e7c;
+  font-family: 'roboto';
+  justify-content: center;
+}
+.image {
+  width: 480px;
+  height: 500px;
+  border-radius: 16px;
+}
+.title {
+  font-size: 24px;
+  color: #171f46;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.price {
+  font-size: 20px;
+  margin-top: 16px;
+}
+.rating-review-container {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.star-button {
+  background-color: #3b82f6;
+  border: none;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.star-image {
+  width: 28px;
+}
+.reviews {
+  color: #616e7c;
+}
+.description {
+  width: 460px;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #616e7c;
+}
+.label {
+  font-size: 20px;
+  color: #12022f;
+}
+.value {
+  font-size: 18px;
+  color: #616e7c;
+  font-weight: 500;
+}
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+.quntity-control-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.quntity-icon {
+  color: #616e7c;
+  width: 16px;
+  height: 16px;
+}
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.add-to-cart-btn {
+  font-size: 12px;
+  margin-bottom: 32px;
+}
+.product-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.failure-view-image {
+  width: 300px;
+  height: 165px;
+}
+.product-not-found-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 48px;
+}
+.label-value-container {
+  display: flex;
+  margin-bottom: 16px;
+}
